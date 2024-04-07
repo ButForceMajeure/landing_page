@@ -1,17 +1,27 @@
-body { 
-    font-family: 'Roboto', sans-serif; 
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype');
   }
 
-.header {
-    padding: 100px;
-    text-align: left;
-    background: #1f2937;
-    color: white;
-    font-size: 30px;
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .header {
+    flex: auto;
+    color: black;
+    width: auto
+    height: auto    ;
+    background-color: darkblue;
+    border: 2px solid black; 
 }
 
-.hero-text {
-    font-size: 48px #F9FAF8;
+
+.head-text {
+    font-size: 48px; 
+    color: #830b0b;
 }
 
 .hero-subtext{
